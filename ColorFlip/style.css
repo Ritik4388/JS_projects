@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    background-color:antiquewhite
+}
+ /* -----------------------------------NAVBAR---------------------------------------------------------------------- */
+.navbar{
+    display: flex;
+    height:5%;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(49, 47, 47);
+    box-shadow: 0 0.5px 10px 0 rgb(126, 142, 119);
+}
+.color-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4{
+    font-size: 1.8rem;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 150px 0 150px;
+    font-size: 1.3rem;
+    font-weight:500;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:indianred;
+}
+
+a:visited{
+    color:darkturquoise;
+}
+
+a:active{
+    color: greenyellow;
+    text-decoration: underline;
+}
+/* -----------------------------------------MAIN BODY------------------------------------------------------------- */
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:230px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(220, 230, 233);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+         /* rgb(49, 76, 113) */
+
+.clr{
+    padding: 0 0 0 10px;
+    font-weight: 700;
+}
+#btn{
+    height:auto;
+    font-size: medium;
+    color: black;
+    font-weight: 100;
+    padding:10px;
+    background-color: rgb(218, 226, 234);
+    border: 3px solid black;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+
+
+
